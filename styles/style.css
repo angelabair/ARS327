@@ -1,5 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 45px !important;
+	line-height: 35px;
+}
+
+.navbar {
+	background: white;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: black;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: black;
+	background: #A7BDD9;
+}
+
+.navbar-inverse .navbar-nav.active {
+	color: blue;
+}
+
+.jumbotron {
+	background: #5684BF;
+	color: #D5E2F2;
+}
+
+.glyphicon {
+	padding-top: 10%;
+	font-size: 60px;
+	color: #548DBF;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+.form-group, .btn-success{
+	width: 420px;
+}
+
+.btn-success {
+	background: white;
+	color: #6295D9;
+	font-weight: 700;
+}
+
+.btn-success:hover {
+	background: #6295D9;
+	color: white;
+	font-weight: 700;
+	border: #5684BF;
+}	
+
+#tos {
+	margin-top: 10px;
+	color: white;
+	font-size: 15px;
+}
+
+#tos a {
+	color: white;
+	text-decoration: underline;
+}
+
+.pricing {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.trump {
+	background: #D5E2F2;
+	padding-top: 50px;
+}
+
+footer {
+	/*background: #548DBF;*/
 }
