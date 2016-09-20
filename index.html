@@ -1,150 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Homepage</title>
+---
+navname: index
+---
 
-  <!-- Bootstrap core CSS -->
-  <link href="styles/bootstrap.min.css" type="text/css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="styles/style.css" type="text/css" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- 
-              .
-                        
-              |         
-     .               /        
-      \       I             
-                  /
-        \  ,g88R_
-          d888(`  ).                   _
- -  --==  888(     ).=--           .+(`  )`.
-)         Y8P(       '`.          :(   .    )
-        .+(`(      .   )     .--  `.  (    ) )
-       ((    (..__.:'-'   .=(   )   ` _`  ) )
-`.     `(       ) )       (   .  )     (   )  ._
-  )      ` __.:'   )     (   (   ))     `-'.:(`  )
-)  )  ( )       --'       `- __.'         :(      ))
-.-'  (_.'          .')                    `(    )  ))
-                  (_  )                     ` __.:'
-                                          
---..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--. -->
-
-
-
-</head>
-
-<body>
-
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html" style="color:black;">Low-Overhead LLC</a>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>When we say cloud,</h1>
+    <h1>we mean it.</h1>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Email Address" class="form-control">
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">FAQs</a></li> 
-        <li><a href="#">About</a></li> 
-        <li><a href="#"></a></li>
-      </ul>
-      <div id="navbar" class="navbar-collapse collapse">
-          <!-- <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form> -->
-        </div><!--/.navbar-collapse -->
+      <div class="form-group">
+        <input type="password" placeholder="Password" class="form-control">
       </div>
-    </nav>
+      <button type="submit" class="btn btn-success">Create an Account</button>
+    </form>
+    <p id="tos">By signing up, you are agreeing to our <a href="#">Terms of Service.</a></p>
+    <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+  </div>
+</div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>When we say cloud,</h1>
-        <h1>we mean it.</h1>
-        <form>
-          <div class="form-group">
-            <input type="text" placeholder="Email Address" class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-success">Create an Account</button>
-        </form>
-        <p id="tos">By signing up, you are agreeing to our <a href="#">Terms of Service.</a></p>
-        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
-      </div>
+<div class="container">
+  <h2 style="text-align:center;">Why Low-Overhead?</h2>
+  <div class="row text-center" >
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-plane" style="text-align:center;"></span>
+      <h3>Seriously Secure Data</h3>
+      <p>Nobody without a helicopter or drone can tamper with your data!</p>
+      <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
     </div>
-
-    <div class="container">
-      <h2 style="text-align:center;">Why Low-Overhead?</h2>
-      <div class="row text-center" >
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-plane" style="text-align:center;"></span>
-          <h3>Seriously Secure Data</h3>
-          <p>Nobody without a helicopter or drone can tamper with your data!</p>
-          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
-        </div>
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-floppy-saved"></span>
-          <h3>99.9999% Reliability</h3>
-          <p>Your server will virtually always be up because it's literally a cloud.</p>
-          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
-        </div>
-        <div class="col-md-4">
-          <span class="glyphicon glyphicon-cloud-upload"></span>
-          <h3>Self-Maintaining Infrastructure</h3>
-          <p>Sometimes you just have too *much* data.  We'll take care of your unwanted rain so you won't have to.</p>
-          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
-        </div>
-      </div>
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-floppy-saved"></span>
+      <h3>99.9999% Reliability</h3>
+      <p>Your server will virtually always be up because it's literally a cloud.</p>
+      <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
     </div>
-
-    <hr>
-
-     <div class="container-fluid">
-      <div class="row text-center">
-        <div class="pricing">
-          <h2>Pricing Table</h2>
-
-        </div>
-      </div>
+    <div class="col-md-4">
+      <span class="glyphicon glyphicon-cloud-upload"></span>
+      <h3>Self-Maintaining Infrastructure</h3>
+      <p>Sometimes you just have too *much* data.  We'll take care of your unwanted rain so you won't have to.</p>
+      <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
     </div>
+  </div>
+</div>
 
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="trump">
-          <h2><img src="images/trump.png" height="200px">"It's time to Make Cloud Storage Great Again!"</h2>
-        </div>
-      </div>
+<hr>
+
+ <div class="container-fluid">
+  <div class="row text-center">
+    <div class="pricing">
+      <h2>Pricing Table</h2>
+
     </div>
+  </div>
+</div>
 
-    <footer>
-      <p style="text-align:center;">&copy; 2016 Low-Overhead LLC.</p>
-    </footer>
-    
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-  </html>
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="trump">
+      <h2><img src="{{ '/images/trump.png' | prepend:site.baseurl }}" height="200px">"It's time to Make Cloud Storage Great Again!"</h2>
+    </div>
+  </div>
+</div>

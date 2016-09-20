@@ -1,0 +1,27 @@
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+
+sass:
+    style: :compressed
+
+timezone: America/New_York
+future: false
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CONTRIBUTING.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
