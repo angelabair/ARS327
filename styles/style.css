@@ -82,6 +82,15 @@ h1 {
 	padding-top: 50px;
 }
 
+#pricing .glyphicon {
+  font-size: 2em;
+  padding: 0;
+}
+
+#pricing td {
+  vertical-align: middle;
+}
+
 footer {
 	/*background: #548DBF;*/
 }
