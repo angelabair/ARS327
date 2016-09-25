@@ -1,29 +1,39 @@
-- name: Jesse T-G
-  image: etc
-  role: Co-Founder & CEO
-  bio: Jesse fancies (in no particular order) clouds, code, video games, and storing things in clouds.
-  sizes: ["col-md-6"]
+members:
+  - &jesse
+    name: Jesse T-G
+    image: etc
+    role: Co-Founder & CEO
+    bio: Jesse fancies (in no particular order) clouds and storing things in clouds.
+    sizes: ["col-md-6"]
 
-- name: Angela Bair
-  image: etc
-  role: Co-Founder & CTO
-  bio: adsfasdfasfd
-  sizes: ["col-md-6"]
+  - &angela
+    name: Angela Bair
+    image: etc
+    role: Co-Founder & CTO
+    bio: Angela fancies (in no particular order) clouds and storing things in clouds.
+    sizes: ["col-md-6"]
 
-- name: Sam Combs
-  image: etc
-  role: Lead Designer
-  bio: adsfasdfasfd
-  sizes: ["col-md-4"]
+  - &sam
+    name: Sam Combs
+    image: etc
+    role: Lead Designer
+    bio: Sam fancies (in no particular order) clouds and storing things in clouds.
+    sizes: ["col-md-4"]
 
-- name: George Khorious
-  image: etc
-  role: R&D
-  bio: adsfasdfasfd
-  sizes: ["col-md-4"]
+  - &george
+    name: George Khorious
+    image: etc
+    role: R&D
+    bio: George fancies (in no particular order) clouds and storing things in clouds.
+    sizes: ["col-md-4"]
 
-- name: Yuki Fong
-  image: etc
-  role: Marketing
-  bio: adsfasdfasfd
-  sizes: ["col-md-4"]
+  - &yuki
+    name: Yuki Fong
+    image: etc
+    role: Marketing
+    bio: Yuki fancies (in no particular order) clouds and storing things in clouds.
+    sizes: ["col-md-4"]
+
+rows:
+  - [*jesse, *angela]
+  - [*sam, *george, *yuki]
