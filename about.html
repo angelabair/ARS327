@@ -1,0 +1,36 @@
+---
+navname: about
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Heads in the clouds, all day and all night.</h1>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Who are we?</h2>
+  <p>
+    The five of us got together and noticed that no cloud storage provider suited our needs, namely the use of actual clouds.  So we went ahead and made our own, and officially founded Low-Overhead, LLC in 2016.
+  </p>
+
+  <hr>
+
+  <h2>Meet the Team</h2>
+
+  {% for member in site.data.team %}
+    <div class="team-member row">
+
+      <div class="col-md-2 col-sm-12 col-xs-12">
+        {% assign image = "images/" | append:member.image %}
+        <img class="center-block img-thumbnail img-circle img-responsive" alt="Mugshot of {{ member.name }}" width="256" height="256" src="{{ image | prepend:site.baseurl }}" />
+      </div>
+
+      <div class="col-md-10 col-sm-12 col-xs-12">
+        <h3 class="text-center">{{ member.name }}</h3>
+        <h4 class="text-center">{{ member.role }}</h4>
+        <p class="text-center">{{ member.bio }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
