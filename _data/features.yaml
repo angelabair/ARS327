@@ -1,0 +1,48 @@
+# To show a checkmark in the feature table, specify its plan entry as true.
+# To show text, specify its plan entry as a string.
+# To show nothing, specify its plan entry as false.
+
+-
+  name: "Cloud Mass"
+  plans: [ "10,000lb (~10GB)",  "1,000,000lb (~1TB)",  "1,000,000,000lb (~1PB)",  "Unlimited"]
+
+-
+  name: "Patented VaporWare™ Technology"
+  plans: [ true,  true,  true,  true]
+
+-
+  name: "Climate-Based Services"
+  plans: [ true,  true,  true,  true]
+
+-
+  name: "File History"
+  plans: [ "Best-Effort",  "7 days",  "60 days",  "Indefinite"]
+
+-
+  name: "Thunderstorm™ Remote Device Wipe"
+  plans: [ false,  true,  true,  true]
+
+-
+  name: "Mostly-Sunny™ Redundancy Plan"
+  plans: [ false,  false,  true,  true]
+
+-
+  name: "SSH access"
+  plans: [ false,  false,  false,  true]
+
+-
+  name: "LDAP Integration"
+  plans: [ false,  false,  false,  true]
+
+-
+  name: "Community Support"
+  plans: [ true,  true,  true,  true]
+
+-
+  name: "Professional Support"
+  plans: [ false,  "3 hours/month",  "Unlimited",  "Unlimited 24-hours"]
+
+-
+  name: "High-Pressure Compression"
+  plans: [ false,  true,  true,  true]
+

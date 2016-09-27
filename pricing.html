@@ -1,0 +1,51 @@
+---
+navname: pricing
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center">See which plan is right for you.</h1>
+  </div>
+</div>
+
+<div id="pricing" class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <table id="pricing" class="table table-striped">
+        <thead>
+          <tr>
+            <th class="text-center">Feature</th>
+            <th class="text-center">Free</th>
+            <th class="text-center">Mostly Sunny</th>
+            <th class="text-center">Overcast</th>
+            <th class="text-center">Storm</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for feature in site.data.features %}
+            {% comment %}For each feature that we offer (it's an object with a string and an array)...{% endcomment %}
+            <tr>
+              <td>
+                {{ feature.name }}
+              </td>
+              {% for plan in feature.plans %}
+                <td class="text-center">
+                  {% if plan == true %}
+                    {% comment %}If the plan is explicitly set to true, show a check-mark.{% endcomment %}
+                    <span class="glyphicon glyphicon-ok"></span>
+                  {% elsif plan %}
+                    {% comment %}Else if the plan is set to anything else that's truthy (e.g. a non-empty string), print it.{% endcomment %}
+                    {{ plan }}
+                  {% endif %}
+                  {% comment %}Otherwise, print nothing.{% endcomment %}
+                </td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
