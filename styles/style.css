@@ -82,6 +82,13 @@ h1 {
 	padding-top: 50px;
 }
 
+.team-member {
+  background: #D5E2F2;
+  border-radius: 1em;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
 footer {
 	/*background: #548DBF;*/
 }

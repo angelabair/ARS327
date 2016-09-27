@@ -18,17 +18,18 @@ navname: about
 
   <h2>Meet the Team</h2>
 
-  {% for row in site.data.team.rows %}
-    <div class="row">
-      {% for member in row %}
-        <div class="team-member {{ member.sizes | join:' ' }}">
-          <h3 class="text-center">{{ member.name }}</h3>
-          <h4 class="text-center">{{ member.role }}</h4>
-          <img class="img-circle img-thumbnail img-responsive center-block" alt="Headshot of {{ member.name }}" width="128" height="128" src="https://avatars2.githubusercontent.com/u/367227" />
-          {% comment %}temporary image{% endcomment %}
-          <p>{{ member.bio }}</p>
-        </div>
-      {% endfor %}
+  {% for member in site.data.team %}
+    <div class="team-member row">
+
+      <div class="col-md-2 col-sm-12 col-xs-12">
+        <img class="center-block img-thumbnail img-circle img-responsive" alt="Mugshot of {{ member.name }}" width="256" height="256" src="{{ member.image }}" />
+      </div>
+
+      <div class="col-md-10 col-sm-12 col-xs-12">
+        <h3 class="text-center">{{ member.name }}</h3>
+        <h4 class="text-center">{{ member.role }}</h4>
+        <p>{{ member.bio }}</p>
+      </div>
     </div>
   {% endfor %}
 </div>
