@@ -89,6 +89,13 @@ h1 {
   padding: 1em 0;
 }
 
+.question {
+  background: #D5E2F2;
+  border-radius: 1em;
+  margin: 1em 0;
+  padding: .5em 1em;
+}
+
 #pricing .glyphicon {
   font-size: 2em;
   padding: 0;

@@ -1,0 +1,18 @@
+---
+navname: faq
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center">Frequently Asked Questions</h1>
+  </div>
+</div>
+
+<div id="faq" class="container">
+  {% for faq in site.data.faq %}
+    <div id="{{ faq.q | slugify }}" class="question">
+      <h2 class="text-center">{{ faq.q }}</h2>
+      <p>{{ faq.a }}</p>
+    </div>
+  {% endfor %}
+</div>
