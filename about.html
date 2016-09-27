@@ -22,13 +22,14 @@ navname: about
     <div class="team-member row">
 
       <div class="col-md-2 col-sm-12 col-xs-12">
-        <img class="center-block img-thumbnail img-circle img-responsive" alt="Mugshot of {{ member.name }}" width="256" height="256" src="{{ member.image }}" />
+        {% assign image = "images/" | append:member.image %}
+        <img class="center-block img-thumbnail img-circle img-responsive" alt="Mugshot of {{ member.name }}" width="256" height="256" src="{{ image | prepend:site.baseurl }}" />
       </div>
 
       <div class="col-md-10 col-sm-12 col-xs-12">
         <h3 class="text-center">{{ member.name }}</h3>
         <h4 class="text-center">{{ member.role }}</h4>
-        <p>{{ member.bio }}</p>
+        <p class="text-center">{{ member.bio }}</p>
       </div>
     </div>
   {% endfor %}
