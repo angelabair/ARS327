@@ -105,6 +105,14 @@ h1 {
   vertical-align: middle;
 }
 
+.stratosphere {
+	margin: auto;
+	height: 60em;
+	width: auto;
+	background-color: #5684BF;
+	color: #5684BF;
+}
+
 footer {
 	/*background: #548DBF;*/
 }
