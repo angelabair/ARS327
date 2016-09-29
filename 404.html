@@ -13,77 +13,84 @@
 
   <style type="text/css">
 
-    h1 {
-      font-size: 200px;
-      color: white;
-      text-shadow:
-      3px 3px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px  2px 0 #000,
-      2px  2px 0 #000;
-    }
+    html, body {
+     margin:0;
+     padding:0;
+     height:100%;
+   }
 
-    h2 {
-      font-size: 100px;
-      color: white;
-      text-shadow:
-      3px 3px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px  2px 0 #000,
-      2px  2px 0 #000;
-    }
+   h1 {
+    font-size: 200px;
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+  }
 
-    .animation{
-      background: linear-gradient(180deg, #020111, #20202c, #3a3a52, #515175, #8a76ab, #cd82a0, #eab0d1, #ebb2b1, #b1b5ea, #94dfff, #67d1fb, #38a3d1, #246fa8, #1e528e, #5b7983, #9da671, #e9ce5d, #b26339, #2f1107, #240e03, #020111);
-      background-size: 4400% 4400%;
-      -webkit-animation: sky 15s ease  infinite;
-      -moz-animation: sky 15s ease  infinite;
-      animation: sky 15s ease  infinite;
-    }
+  h2 {
+    font-size: 100px;
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+  }
 
-    @-webkit-keyframes sky {
-      0%{background-position:53% 0%}
-      50%{background-position:48% 100%}
-      100%{background-position:53% 0%}
-    }
-    @-moz-keyframes sky {
-      0%{background-position:53% 0%}
-      50%{background-position:48% 100%}
-      100%{background-position:53% 0%}
-    }
-    @keyframes sky {
-      0%{background-position:53% 0%}
-      50%{background-position:48% 100%}
-      100%{background-position:53% 0%}
-    }
+  .animation{
+    background: linear-gradient(180deg, #020111, #20202c, #3a3a52, #515175, #8a76ab, #cd82a0, #eab0d1, #ebb2b1, #b1b5ea, #94dfff, #67d1fb, #38a3d1, #246fa8, #1e528e, #5b7983, #9da671, #e9ce5d, #b26339, #2f1107, #240e03, #020111);
+    background-size: 4400% 4400%;
+    height: 100%;
+    -webkit-animation: sky 20s ease  infinite;
+    -moz-animation: sky 20s ease  infinite;
+    animation: sky 20s ease  infinite;
+  }
 
-  </style>
+  @-webkit-keyframes sky {
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
+  }
+  @-moz-keyframes sky {
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
+  }
+  @keyframes sky {
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
+  }
+
+</style>
 </head>
 <body>
 
   <div class="animation">
     <div class="dance container">
       <h1 class="text-center">404</h1>
-        <div class="row">
-          <div class="col-md-4">
-            <img class="img-responsive" src="images/ditto.gif">
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive" src="images/ditto.gif">
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive" src="images/ditto.gif">
-          </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/ditto.gif">
         </div>
-        <h2 class="text-center">Page Not Found</h2>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/ditto.gif">
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/ditto.gif">
+        </div>
+      </div>
+      <h2 class="text-center">Page Not Found</h2>
     </div>
   </div>
 
   <audio loop autoplay>
     <source src="konga.mp3" type="audio/mp3">
-  </audio>
+    </audio>
 
-</body>
-</html>
+  </body>
+  </html>
