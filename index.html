@@ -66,7 +66,11 @@ navname: index
       <li>10GB Memory</li>
       <li>Best Effort Lifetime</li>
       <li><img src="images/mostly sunny.svg" height="50px"></li>
-      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+      <li>
+        <form>
+          <button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{ 'pricing' | prepend:site.baseurl }}">Sign up</button>
+        </form>
+      </li>
     </ul>
   </div>
   <div class="columns">
@@ -76,7 +80,11 @@ navname: index
       <li>1TB Memory</li>
       <li>7 Day Lifetime</li>
       <li><img src="images/sunny.svg" height="50px"></li>
-      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="faqs.html">Sign up</button></li>
+      <li>
+        <form>
+          <button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{' pricing' | prepend:site.baseurl }}">Sign up</button>
+        </form>
+      </li>
     </ul>
   </div>
   <div class="columns">
@@ -86,7 +94,11 @@ navname: index
       <li>1PB Memory</li>
       <li>10 Day Lifetime</li>
       <li><img src="images/cloudy.svg" height="50px;"></li>
-      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+      <li>
+        <form>
+        <button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{ 'pricing' | prepend:site.baseurl }}">Sign up</button>
+        </form>
+      </li>
     </ul>
   </div>
   <div class="columns">
@@ -96,7 +108,11 @@ navname: index
       <li>Unlimited Memory</li>
       <li>15 Day Lifetime</li>
       <li><img src="images/stormy.svg" height="50px"></li>
-      <li><button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+      <li>
+        <form>
+          <button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{ 'pricing' | prepend:site.baseurl }}">Sign up</button>
+        </form>
+      </li>
     </ul>
   </div>
 </div>
