@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-size: 45px !important;
+	font-size: 45px !important;
 	line-height: 35px;
 }
 
@@ -53,8 +53,8 @@ h1 {
 }
 
 #slogan {
-  padding-top: 0;
-  margin-top: 0;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 .btn-group-lg>.btn, .btn-lg {
@@ -75,6 +75,40 @@ h1 {
 	padding-bottom: 50px;
 }
 
+.columns {
+	border: 2px solid #5684BF;
+	width: 20em;
+	background-color: white;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.price {
+	list-style-type: none;
+	border: 1px black;
+	margin: 0;
+	padding: 0;
+}
+
+.price .cloud-type {
+	background-color: #D5E2F2;
+	font-size: 35px;
+	color: black;
+}
+
+.price .cloud-price {
+	font-size: 25px;
+	background-color: #A7BDD9;
+	color: black;
+}
+
+.price li {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	background-color: #D5E2F2;
+}
+
 .carousel-inner {
 	background: #D5E2F2;
 }
@@ -84,9 +118,9 @@ h1 {
 }
 
 .carousel-inner > .item > h2,
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    margin-left: 15%;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	margin-left: 15%;
 }
 
 .carousel-caption {
@@ -94,32 +128,32 @@ h1 {
 }
 
 .team-member {
-  background: #D5E2F2;
-  border-radius: 1em;
-  margin: 1em 0;
-  padding: 1em 0;
+	background: #D5E2F2;
+	border-radius: 1em;
+	margin: 1em 0;
+	padding: 1em 0;
 }
 
 .question {
-  background: #D5E2F2;
-  border-radius: 1em;
-  margin: 1em 0;
-  padding: .5em 1em;
+	background: #D5E2F2;
+	border-radius: 1em;
+	margin: 1em 0;
+	padding: .5em 1em;
 }
 
 #pricing .glyphicon {
-  font-size: 2em;
-  padding: 0;
+	font-size: 2em;
+	padding: 0;
 }
 
 #pricing td {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 #stratosphere {
-  height: 80vh;
+	height: 80vh;
 	background-color: #5684BF;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 footer {
@@ -127,19 +161,19 @@ footer {
 }
 
 @keyframes wind{
-  0% {
-    left: -150%;
-  }
-  100% {
-    left: 100%;
-  }
+	0% {
+		left: -150%;
+	}
+	100% {
+		left: 100%;
+	}
 }
 
 /* individual cloud parameters are given in _data/clouds.yaml */
 #stratosphere .cloud {
-  animation-name: wind;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  position: relative;
-  will-change: left;
+	animation-name: wind;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	position: relative;
+	will-change: left;
 }

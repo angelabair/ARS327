@@ -19,7 +19,6 @@ navname: index
       </form>
 
       <p id="tos">By signing up, you agree to our <a href="#">Terms of Service.</a></p>
-      <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-6">
@@ -54,12 +53,51 @@ navname: index
 
 <hr>
 
-<div class="container-fluid">
+<div class="container-fluid text-center">
   <div class="row text-center">
     <div class="pricing">
       <h2>Pricing Table</h2>
-
     </div>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="cloud-type">Sunny</li>
+      <li class="cloud-price">Free</li>
+      <li>10GB Memory</li>
+      <li>Best Effort Lifetime</li>
+      <li><img src="images/mostly sunny.svg" height="50px"></li>
+      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="cloud-type">Mostly Sunny</li>
+      <li class="cloud-price">$10/mo</li>
+      <li>1TB Memory</li>
+      <li>7 Day Lifetime</li>
+      <li><img src="images/sunny.svg" height="50px"></li>
+      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="faqs.html">Sign up</button></li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price popular">
+      <li class="cloud-type">Overcast</li>
+      <li class="cloud-price">$20/mo</li>
+      <li>1PB Memory</li>
+      <li>10 Day Lifetime</li>
+      <li><img src="images/cloudy.svg" height="50px;"></li>
+      <li><button type="button" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="cloud-type">Storm</li>
+      <li class="cloud-price">$30/mo</li>
+      <li>Unlimited Memory</li>
+      <li>15 Day Lifetime</li>
+      <li><img src="images/stormy.svg" height="50px"></li>
+      <li><button type="submit" class="btn btn-lg btn-block btn-default" formaction="{{'faqs.html' | prepend:site.baseurl }}">Sign up</button></li>
+    </ul>
   </div>
 </div>
 
