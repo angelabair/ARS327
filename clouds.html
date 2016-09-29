@@ -2,8 +2,16 @@
 navname: clouds
 ---
 
-<div class="stratosphere">
-
+<div id="stratosphere" class="container-fluid">
+  {% for cloud in site.data.clouds %}
+    <a href="{{ cloud.url | default: '#' }}" target="_blank" class="cloud" style="
+      {% if cloud.top %} top: {{ cloud.top }}; {% endif %}
+      {% if cloud.duration %} animation-duration: {{ cloud.duration }}; {% endif %}
+      {% if cloud.height %} height: {{ cloud.height }}; {% endif %}
+      {% if cloud.delay %} animation-delay: {{ cloud.delay }}; {% endif %}
+      left: -150%;
+    ">
+      <img src="{{ 'images/cloud.svg' | prepend:site.baseurl }}" {% if cloud.height %} height="{{ cloud.height }}" {% endif %}>
+    </a>
+  {% endfor %}
 </div>
-
-<footer style="display: none;"></footer>

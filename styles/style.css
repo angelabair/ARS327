@@ -116,14 +116,30 @@ h1 {
   vertical-align: middle;
 }
 
-.stratosphere {
-	margin: auto;
-	height: 50em;
-	width: auto;
+#stratosphere {
+  height: 80vh;
 	background-color: #5684BF;
-	color: #5684BF;
+  overflow: hidden;
 }
 
 footer {
 	/*background: #548DBF;*/
+}
+
+@keyframes wind{
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* individual cloud parameters are given in _data/clouds.yaml */
+#stratosphere .cloud {
+  animation-name: wind;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
+  will-change: left;
 }
