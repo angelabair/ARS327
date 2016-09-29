@@ -10,11 +10,9 @@ navname: index
       <h2 id="slogan">When we say the cloud, we mean it.</h2>
       <form>
         <div class="form-group">
-          <label for="cloud-email">E-Mail Address</label>
           <input type="email" required id="cloud-email" placeholder="Email Address" class="form-control">
         </div>
         <div class="form-group">
-          <label for="cloud-pass">Password</label>
           <input type="password" placeholder="Password" id="cloud-pass" class="form-control">
         </div>
         <button type="submit" required id="create-account" formaction="{{ '404' | prepend:site.baseurl }}" class="btn btn-lg btn-block btn-default">Create an Account</button>
