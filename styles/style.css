@@ -3,7 +3,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 50px;
+	padding-top: 75px;
 	padding-bottom: 20px;
 }
 
@@ -13,20 +13,32 @@ h1 {
 }
 
 .navbar {
+	height: 75px;
 	background: white;
 }
 
 .navbar-inverse .navbar-nav li a {
+	padding-top: 25px;
+	font-size: 15px;
 	color: black;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
+	height: 75px;
 	color: black;
-	background: #A7BDD9;
+	background: #D5E2F2;
 }
 
-.navbar-inverse .navbar-nav.active {
-	color: blue;
+.navbar-inverse .navbar-nav .active a{
+	height: 75px;
+	color: black;
+	background-color: #A7BDD9;
+}
+
+.navbar-inverse .navbar-nav .active a:hover{
+	height: 75px;
+	color: black;
+	background-color: #A7BDD9;
 }
 
 .jumbotron {
