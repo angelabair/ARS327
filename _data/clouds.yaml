@@ -1,58 +1,64 @@
-- url: ""
+# url: the thing the cloud links to (can be clicked on by the user)
+# top: How far from the top of the banner the cloud is (in any CSS length)
+# height: how tall the cloud is (in any CSS length)
+# duration: How long it takes the cloud to move across the screen (in any CSS duration)
+# delay: How long until the cloud starts moving (in any CSS duration)
+
+- url: "https://media.giphy.com/media/T9rV6AJUoSX8k/giphy.gif"
   top: 1.9em
   height: 31%
   duration: 66s
-  delay: 5s
+  delay: 0s
 
-- url: ""
+- url: "https://media1.giphy.com/media/P3bhrBdWCvek8/giphy.gif"
   top: 1.7em
   height: 55%
   duration: 29s
   delay: 10s
 
-- url: ""
+- url: "https://media.giphy.com/media/h5NXof7XfEYHm/giphy.gif"
   top: 2.6em
   height: 25%
   duration: 35s
   delay: 0s
 
-- url: ""
+- url: "https://media.giphy.com/media/3o6EhWeei7wsp2jc1G/giphy.gif"
   top: 1.8em
   height: 40%
   duration: 25s
   delay: 3s
 
-- url: ""
+- url: "https://media.giphy.com/media/dB2svH5EJ646s/giphy.gif"
   top: 3.3em
   height: 25%
   duration: 42s
   delay: 1s
 
-- url: ""
+- url: "https://orig14.deviantart.net/7d0c/f/2013/126/4/4/donald_the_duck___by_danluvisiart-d64bs16.jpg"
   top: 3.8em
   height: 25%
   duration: 91s
   delay: 10s
 
-- url: ""
+- url: "https://media.giphy.com/media/l2SpW7nWd4QuBE5LW/giphy.gif"
   top: 3.1em
   height: 27%
   duration: 64s
   delay: 17s
 
-- url: ""
+- url: "https://giphy.com/gifs/3o85xsGXVuYh8lM3EQ/html5"
   top: 2.8em
   height: 20%
   duration: 48s
   delay: 5s
 
-- url: ""
+- url: "https://media.giphy.com/media/hkbWULPHBLgFq/giphy.gif"
   top: 3.5em
   height: 40%
   duration: 22s
   delay: 3s
 
-- url: ""
+- url: "https://youtu.be/Vus0tOIgdTk"
   top: 1.7em
   height: 29%
   duration: 83s
