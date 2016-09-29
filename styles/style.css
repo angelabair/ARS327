@@ -57,6 +57,14 @@ h1 {
   margin-top: 0;
 }
 
+.btn-group-lg>.btn, .btn-lg {
+	padding: 5px 0 5px 0;
+}
+
+#tos {
+	font-size: 15px;
+}
+
 #tos a {
 	color: white;
 	text-decoration: underline;
@@ -67,9 +75,22 @@ h1 {
 	padding-bottom: 50px;
 }
 
-.trump {
+.carousel-inner {
 	background: #D5E2F2;
-	padding-top: 50px;
+}
+
+.carousel-inner > .item {
+	margin-bottom: -30px;
+}
+
+.carousel-inner > .item > h2,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin-left: 15%;
+}
+
+.carousel-caption {
+	color: black;
 }
 
 .team-member {
