@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>404</title>
+  <meta charset="utf-8">
+  <title>404</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="styles/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="styles/bootstrap.min.css" type="text/css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
-	<!-- <link href="styles/style.css" type="text/css" rel="stylesheet"> -->
+  <!-- Custom styles for this template -->
+  <!-- <link href="styles/style.css" type="text/css" rel="stylesheet"> -->
 
 
-	<style type="text/css">
+  <style type="text/css">
 
-		body {
-			margin: -20px auto;
-			height: 68em;
-			width: 100%;
-		}
+    h1 {
+      font-size: 200px;
+      color: white;
+      text-shadow:
+      3px 3px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px  2px 0 #000,
+      2px  2px 0 #000;
+    }
 
-		h1 {
-			font-size: 200px;	
-			color: white;
-			text-shadow:     
-			3px 3px 0 #000,
-			-2px -2px 0 #000,  
-			2px -2px 0 #000,
-			-2px  2px 0 #000,
-			2px  2px 0 #000;
-		}
+    h2 {
+      font-size: 100px;
+      color: white;
+      text-shadow:
+      3px 3px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px  2px 0 #000,
+      2px  2px 0 #000;
+    }
 
-		h2 {
-			font-size: 100px;
-			color: white;
-			text-shadow:     
-			3px 3px 0 #000,
-			-2px -2px 0 #000,  
-			2px -2px 0 #000,
-			-2px  2px 0 #000,
-			2px  2px 0 #000;
-		}
+    .animation{
+      background: linear-gradient(180deg, #020111, #20202c, #3a3a52, #515175, #8a76ab, #cd82a0, #eab0d1, #ebb2b1, #b1b5ea, #94dfff, #67d1fb, #38a3d1, #246fa8, #1e528e, #5b7983, #9da671, #e9ce5d, #b26339, #2f1107, #240e03, #020111);
+      background-size: 4400% 4400%;
+      -webkit-animation: sky 15s ease  infinite;
+      -moz-animation: sky 15s ease  infinite;
+      animation: sky 15s ease  infinite;
+    }
 
-		.animation{
-			background: linear-gradient(180deg, #020111, #20202c, #3a3a52, #515175, #8a76ab, #cd82a0, #eab0d1, #ebb2b1, #b1b5ea, #94dfff, #67d1fb, #38a3d1, #246fa8, #1e528e, #5b7983, #9da671, #e9ce5d, #b26339, #2f1107, #240e03, #020111);
-			height: 100%;
-			width: 100%;
-			background-size: 4400% 4400%;
-			-webkit-animation: sky 15s ease  infinite;
-			-moz-animation: sky 15s ease  infinite;
-			animation: sky 15s ease  infinite;
-		}
+    @-webkit-keyframes sky {
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
+    }
+    @-moz-keyframes sky {
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
+    }
+    @keyframes sky {
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
+    }
 
-		@-webkit-keyframes sky {
-			0%{background-position:53% 0%}
-			50%{background-position:48% 100%}
-			100%{background-position:53% 0%}
-		}
-		@-moz-keyframes sky {
-			0%{background-position:53% 0%}
-			50%{background-position:48% 100%}
-			100%{background-position:53% 0%}
-		}
-		@keyframes sky { 
-			0%{background-position:53% 0%}
-			50%{background-position:48% 100%}
-			100%{background-position:53% 0%}
-		}
-
-	</style>
+  </style>
 </head>
 <body>
 
-	<div class="animation">
-		<div class="dance">
-			<h1 class="text-center">404</h1>
-			<img src="images/ditto.gif"  style="margin-left: 10%;">
-			<img src="images/ditto.gif">
-			<img src="images/ditto.gif">
-			<h2 class="text-center">Page Not Found</h2>
-		</div>
-	</div>
+  <div class="animation">
+    <div class="dance container">
+      <h1 class="text-center">404</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive" src="images/ditto.gif">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="images/ditto.gif">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="images/ditto.gif">
+          </div>
+        </div>
+        <h2 class="text-center">Page Not Found</h2>
+    </div>
+  </div>
 
-	<audio loop autoplay>
-		<source src="konga.mp3" type="audio/mp3">
-		</audio>
+  <audio loop autoplay>
+    <source src="konga.mp3" type="audio/mp3">
+  </audio>
 
-	</body>
-	</html>
+</body>
+</html>
