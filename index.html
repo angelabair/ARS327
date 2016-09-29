@@ -54,7 +54,7 @@ navname: index
 
 <hr>
 
- <div class="container-fluid">
+<div class="container-fluid">
   <div class="row text-center">
     <div class="pricing">
       <h2>Pricing Table</h2>
@@ -63,10 +63,55 @@ navname: index
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row text-center">
-    <div class="trump">
-      <h2><img src="{{ 'images/trump.png' | prepend:site.baseurl }}" height="200px">"It's time to Make Cloud Storage Great Again!"</h2>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <h2><img src="images/trump.png" alt="Trump">"It's time to Make Cloud Storage Great Again!"</h2>
+      <div class="carousel-caption">
+        <h4>- Donald Trump</h4>
+      </div>
+    </div>
+    <div class="item">
+      <h2><img src="images/rogers.png" alt="Mr. Rogers">"This is shit is the bomb! Why the fuck hasn't anyone done this sooner?"</h2>
+      <div class="carousel-caption">
+        <h4>- Mr. Rogers</h4>
+      </div>
+    </div>
+    <div class="item">
+      <h2><img src="images/jlaw.png" alt="Jennifer Lawrence">"The best place to store your private pictures."</h2>
+      <div class="carousel-caption">
+        <h4>- Jennifer Lawrence</h4>
+      </div>
+    </div>
+    <div class="item">
+      <h2><img src="images/tiffany.png" alt="Tiffany">"What do you mean the clouds store data? That doesn't make any sense." </h2>
+      <div class="carousel-caption">
+        <h4>- Shut up Tiffany</h4>
+      </div>
+    </div>
+    <div class="item">
+      <h2><img src="images/bird.png" alt="Bird">"Scree kaw kaw haha im a bird."</h2>
+      <div class="carousel-caption">
+        <h4>- A Bird</h4>
+      </div>
+    </div>
+    <div class="item">
+      <h2><img src="images/apache.png" alt="Apache">"I keep flying into balloons. Please make them stop."</h2>
+      <div class="carousel-caption">
+        <h4>- Apache Attack Helicopter</h4>
+      </div>
     </div>
   </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
