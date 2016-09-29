@@ -3,11 +3,11 @@
 # To show nothing, specify its plan entry as false.
 
 -
-  name: "Cloud Mass"
-  plans: [ "10,000lb (~10GB)",  "1,000,000lb (~1TB)",  "1,000,000,000lb (~1PB)",  "Unlimited"]
+  name: "Cloud Weight"
+  plans: [ "10,000lb (~10GB)",  "50,000lb (~50GB)",  "1,000,000lb (~1TB)",  "Unlimited" ]
 
 -
-  name: "Patented VaporWare™ Technology"
+  name: "Adopt-a-Cloud"
   plans: [ true,  true,  true,  true]
 
 -
@@ -15,8 +15,8 @@
   plans: [ true,  true,  true,  true]
 
 -
-  name: "File History"
-  plans: [ "Best-Effort",  "7 days",  "60 days",  "Indefinite"]
+  name: "Cloud Lifetime"
+  plans: [ "Best-Effort",  "7 days",  "10 days",  "15 Days"]
 
 -
   name: "Thunderstorm™ Remote Device Wipe"
@@ -27,20 +27,20 @@
   plans: [ false,  false,  true,  true]
 
 -
-  name: "SSH access"
+  name: "Physical Upload Via Balloon "
   plans: [ false,  false,  false,  true]
 
 -
-  name: "LDAP Integration"
+  name: "Physical Upload Via SOVIET Rocket"
   plans: [ false,  false,  false,  true]
 
 -
-  name: "Community Support"
-  plans: [ true,  true,  true,  true]
+  name: "Frying-Pan Package"
+  plans: [ false,  true,  true,  true]
 
 -
   name: "Professional Support"
-  plans: [ false,  "3 hours/month",  "Unlimited",  "Unlimited 24-hours"]
+  plans: [ false,  "3 hours/month",  "5 hours/month",  "Unlimited 24-hours"]
 
 -
   name: "High-Pressure Compression"
