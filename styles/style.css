@@ -52,31 +52,9 @@ h1 {
 	color: #548DBF;
 }
 
-.form-group {
-	margin-top: 20px;
-}
-
-.form-group, .btn-success{
-	width: 420px;
-}
-
-.btn-success {
-	background: white;
-	color: #6295D9;
-	font-weight: 700;
-}
-
-.btn-success:hover {
-	background: #6295D9;
-	color: white;
-	font-weight: 700;
-	border: #5684BF;
-}	
-
-#tos {
-	margin-top: 10px;
-	color: white;
-	font-size: 15px;
+#slogan {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #tos a {
